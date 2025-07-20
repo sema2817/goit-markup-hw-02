@@ -1,5 +1,6 @@
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    color: #434455;
 }
 h1{
     font-size: 56px;
@@ -20,20 +21,31 @@ h3{
 p{
     font-size: 16px;
     line-height: 1.5;
-    color: #434455;
 }
 .button{
+    font-family: 'Raleway', 'Segoe UI', 'Helvetica Neue', 'Open Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
     background-color: #4D5AE5;
     color: #FFFFFF;
 }
 footer{
+    font-family: 'Raleway', 'Segoe UI', 'Helvetica Neue', 'Open Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
     color: #F4F4FD;
     background-color: #2E2F42;
 }
-.web1{
+.webfooter{
+    font-family: 'Raleway', 'Segoe UI', 'Helvetica Neue', 'Open Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
     color: #4D5AE5;
 }
-.studio1{
+.studiofooter{
+    font-family: 'Raleway', 'Segoe UI', 'Helvetica Neue', 'Open Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
     color: #F4F4FD;
 }
 .web{
@@ -52,9 +64,10 @@ footer{
     color: #2E2F42  ;
 }
 .footerinfo{
+    font-size: 16px;
     color: #F4F4FD;
 }
-.web, .studio, .web1, .studio1, .title, .address, .button, .footerinfo, .link{
+.web, .studio, .webfooter, .studiofooter, .title, .address, .button, .footerinfo, .link{
     text-decoration: none;
 }
 ul{
