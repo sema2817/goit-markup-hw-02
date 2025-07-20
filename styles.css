@@ -1,17 +1,62 @@
 body{
     font-family: "Roboto", sans-serif;
 }
+h1{
+    font-size: 56px;
+    font-weight: 700;
+    color: #FFFFFF;
+    letter-spacing: 2%;
+    text-align: center;
+/*   line-height: 1.07;   */
+}
 h2{
     font-size: 36px;
+    color: #2E2F42;
 }
 h3{
     font-size: 20px;
+    color: #2E2F42;
 }
 p{
     font-size: 16px;
     line-height: 1.5;
+    color: #434455;
+}
+.button{
+    background-color: #4D5AE5;
+    color: #FFFFFF;
 }
 footer{
-    color: #FFFFFF;
+    color: #F4F4FD;
     background-color: #2E2F42;
+}
+.web1{
+    color: #4D5AE5;
+}
+.studio1{
+    color: #F4F4FD;
+}
+.web{
+    color:#4D5AE5;
+}
+.studio{
+    color: #2E2F42;
+}
+.title {
+    background-color: #2E2F42;
+}
+.address{
+    color: #434455;
+}
+.link{
+    color: #2E2F42  ;
+}
+.footerinfo{
+    color: #F4F4FD;
+}
+.web, .studio, .web1, .studio1, .title, .address, .button, .footerinfo, .link{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
 }
