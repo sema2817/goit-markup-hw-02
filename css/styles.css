@@ -6,7 +6,7 @@ h1 {
   font-size: 56px;
   font-weight: 700;
   color: #ffffff;
-  letter-spacing: 2%;
+  letter-spacing: 1.1px;
   text-align: center;
   /*   line-height: 1.07;   */
 }
@@ -85,4 +85,7 @@ footer {
 }
 ul {
   list-style-type: none;
+}
+.our-team{
+  background-color: #F4F4FD;
 }
